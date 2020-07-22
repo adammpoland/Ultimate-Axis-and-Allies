@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="UltimateAxisAndAlliesList.LocationEntryPage">
+    <ContentPage.Resources>
+        <!-- Implicit styles -->
+        <Style TargetType="{x:Type Editor}">
+            <Setter Property="BackgroundColor"
+                    Value="{StaticResource AppBackgroundColor}" />
+        </Style>
+
+        <Style TargetType="Button"
+               ApplyToDerivedTypes="True"
+               CanCascade="True">
+            <Setter Property="FontSize" Value="Medium" />
+            <Setter Property="BackgroundColor" Value="#1976D2" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="CornerRadius" Value="5" />
+        </Style>
+    </ContentPage.Resources>
+
+    <StackLayout Margin="{StaticResource PageMargin}">
+        
+        <Picker x:Name="Territories"
+        Title="Select a Territory"
+        SelectedItem="{Binding Territory}"
+
+        TitleColor="Black">
+          <Picker.ItemsSource>
+            <x:Array Type="{x:Type x:String}">
+              <x:String>ANZAC----------------------------</x:String>
+              <x:String>Sydney</x:String>
+              <x:String>New South Wales</x:String>
+              <x:String>Queensland</x:String>
+              <x:String>New Zealand</x:String>
+              <x:String>Great Britain--------------------</x:String>
+              <x:String>Scotland</x:String>
+              <x:String>Northern England</x:String>
+              <x:String>British Midlands</x:String>
+              <x:String>London</x:String>
+              <x:String>Northern Ireland</x:String>
+              <x:String>Gibraltar</x:String>
+              <x:String>Eastern Egypt</x:String>
+              <x:String>Western Egypt</x:String>
+              <x:String>transJordan</x:String>
+              <x:String>British Somaliland</x:String>
+              <x:String>Malta</x:String>
+              <x:String>South African Union</x:String>
+              <x:String>Ottawa</x:String>
+              <x:String>FEC----------------------------</x:String>
+              <x:String>Hong Kong</x:String>
+              <x:String>Burma</x:String>
+              <x:String>Calcutta</x:String>
+              <x:String>Southern India</x:String>
+              <x:String>Haryana</x:String>
+              <x:String>Ceylon</x:String>
+              <x:String>Malay</x:String>
+              <x:String>Sarawak</x:String>
+              <x:String>Bengal</x:String>
+              <x:String>China CCP---------------------</x:String>
+              <x:String>Shensi</x:String>
+              <x:String>China KMT---------------------</x:String>
+              <x:String>Hunan</x:String>
+              <x:String>Shantung</x:String>
+              <x:String>Szechwan</x:String>
+              <x:String>Nanking</x:String>
+              <x:String>Kweichow</x:String>
+              <x:String>Suiyuan</x:String>
+              <x:String>Peking</x:String>
+              <x:String>Hopeh</x:String>
+              <x:String>Kwangtung</x:String>
+              <x:String>Yunnan</x:String>
+              <x:String>Tsinghai</x:String>
+              <x:String>Sinkiang</x:String>
+              <x:String>Tibet</x:String>
+              <x:String>France------------------------</x:String>
+              <x:String>Paris</x:String>
+              <x:String>Alsace-Lorraine</x:String>
+              <x:String>Picardy</x:String>
+              <x:String>Southern France (Vichy France)</x:String>
+              <x:String>Aquitaine</x:String>
+              <x:String>Normandy</x:String>
+              <x:String>Northern Algeria</x:String>
+              <x:String>Morocco</x:String>
+              <x:String>Tunisia</x:String>
+              <x:String>Syria</x:String>
+              <x:String>Cochinchina</x:String>
+              <x:String>Annam-Tonkin</x:String>
+              <x:String>Germany-----------------------</x:String>
+              <x:String>East Prussia</x:String>
+              <x:String>Eastern Germany</x:String>
+              <x:String>Berlin</x:String>
+              <x:String>Bavaria</x:String>
+              <x:String>Western Germany</x:String>
+              <x:String>Austria</x:String>
+              <x:String>Bohemia</x:String>
+              <x:String>Slovakia</x:String>
+              <x:String>Italy-------------------------</x:String>
+              <x:String>Northern Italy</x:String>
+              <x:String>Rome</x:String>
+              <x:String>Campania</x:String>
+              <x:String>Sicily</x:String>
+              <x:String>Eritrea</x:String>
+              <x:String>Cyrenaica</x:String>
+              <x:String>Tripolitania</x:String>
+              <x:String>Tobruk</x:String>
+              <x:String>Italian Somaliland</x:String>
+              <x:String>Albania</x:String>
+              <x:String>Abyssinia</x:String>
+              <x:String>Japan--------------------------</x:String>
+              <x:String>Hokkaido</x:String>
+              <x:String>Honshu</x:String>
+              <x:String>Kyushu</x:String>
+              <x:String>Tokyo</x:String>
+              <x:String>Korea</x:String>
+              <x:String>Kurile Islands</x:String>
+              <x:String>Bonin Islands</x:String>
+              <x:String>Volcano Islands</x:String>
+              <x:String>Okinawa</x:String>
+              <x:String>Formosa</x:String>
+              <x:String>Rehe</x:String>
+              <x:String>Northern Manchuria</x:String>
+              <x:String>Caroline Islands</x:String>
+              <x:String>Palau</x:String>
+              <x:String>Marshall Islands</x:String>
+              <x:String>Siam</x:String>
+              <x:String>U.S.S.R-----------------------</x:String>
+              <x:String>Primorski Krai</x:String>
+              <x:String>Chita</x:String>
+              <x:String>Yakutsk</x:String>
+              <x:String>Amur</x:String>
+              <x:String>Saratov</x:String>
+              <x:String>Western Kazakhstan</x:String>
+              <x:String>Karelia</x:String>
+              <x:String>Tanna Tuva</x:String>
+              <x:String>Novosibirsk</x:String>
+              <x:String>Northern Kazakhstan</x:String>
+              <x:String>Turkmenistan</x:String>
+              <x:String>Northern Caucasia</x:String>
+              <x:String>Transcaucasia</x:String>
+              <x:String>Stalingrad</x:String>
+              <x:String>Eastern Ukraine</x:String>
+              <x:String>Western Ukraine</x:String>
+              <x:String>Crimea</x:String>
+              <x:String>Kiev</x:String>
+              <x:String>Orel-Kursk</x:String>
+              <x:String>Smolensk</x:String>
+              <x:String>Western Russia</x:String>
+              <x:String>Leningrad</x:String>
+              <x:String>Moscow</x:String>
+              <x:String>Northern Russia</x:String>
+              <x:String>Southern Ukraine</x:String>
+              <x:String>Southern Belorussia</x:String>
+              <x:String>Gorky</x:String>
+              <x:String>USA---------------------------</x:String>
+              <x:String>Washington</x:String>
+              <x:String>New York</x:String>
+              <x:String>The Northeast</x:String>
+              <x:String>New England</x:String>
+              <x:String>Heartlands</x:String>
+              <x:String>Southeastern US</x:String>
+              <x:String>Texas</x:String>
+              <x:String>Panama</x:String>
+              <x:String>Chicago</x:String>
+              <x:String>Great Lakes</x:String>
+              <x:String>San Francisco</x:String>
+              <x:String>Southwest US</x:String>
+              <x:String>Pacific Northwest</x:String>
+              <x:String>Philippines</x:String>
+              <x:String>Hawaiian Islands</x:String>
+              <x:String></x:String>
+              <x:String></x:String>
+              <x:String></x:String>
+              <x:String></x:String>
+              <x:String></x:String>
+              <x:String></x:String>
+              <x:String></x:String>
+              <x:String></x:String>
+
+            </x:Array>
+          </Picker.ItemsSource>
+        </Picker>
+
+         
+         <Entry Placeholder="Unit Name"
+                Text="{Binding UnitName}"
+                 />
+
+        <Label Text="Rank"></Label>
+        <Entry Placeholder="Rank"
+               Keyboard="Numeric"
+                Text="{Binding UnitRank}"
+                 />
+
+        <Label Text="Quantity"></Label>
+        <Entry  Placeholder="Quantity"
+                Keyboard="Numeric"
+                Text="{Binding Quantity}"
+                 />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="Save"
+                    Clicked="OnSaveButtonClicked" />
+            <Button Grid.Column="1"
+                    Text="Delete"
+                    Clicked="OnDeleteButtonClicked" />
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

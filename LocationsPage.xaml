@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="UltimateAxisAndAlliesList.LocationsPage">
+ <ContentPage.Resources>
+        <!-- Implicit styles -->
+        <Style TargetType="{x:Type ListView}">
+            <Setter Property="BackgroundColor"
+                    Value="{StaticResource AppBackgroundColor}" />
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Move Units"
+                     Clicked="OnNoteAddedClicked" />
+        <ToolbarItem Text="Select By Country"
+                     Clicked="SearchByCountryClicked" />
+        <ToolbarItem Text="Add"
+                     Clicked="OnNoteAddedClicked" />
+    </ContentPage.ToolbarItems>
+
+    
+    <ListView x:Name="listView"
+              Margin="20"
+              Header="Territory | Unit Name | Rank | Quantity"
+              ItemSelected="OnListViewItemSelected">
+              
+        
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                <Grid>
+                   
+                    <Label Text="{Binding Territory}" FontAttributes="Bold" />
+                    <Label Grid.Column="1" Text="{Binding UnitName}" />
+                    <Label Grid.Column="2" Text="{Binding UnitRank}" />
+
+                    <Label Grid.Column="3" Text="{Binding Quantity}" HorizontalTextAlignment="End" />
+                </Grid>
+            </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
