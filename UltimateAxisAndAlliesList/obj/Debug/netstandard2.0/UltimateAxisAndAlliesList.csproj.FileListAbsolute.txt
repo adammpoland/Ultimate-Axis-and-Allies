@@ -1,0 +1,17 @@
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/obj/Debug/netstandard2.0/UltimateAxisAndAlliesList.csprojAssemblyReference.cache
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/obj/Debug/netstandard2.0/LocationEntryPage.xaml.g.cs
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/obj/Debug/netstandard2.0/LocationsPage.xaml.g.cs
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/obj/Debug/netstandard2.0/UltimateAxisAndAlliesList.AssemblyInfoInputs.cache
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/obj/Debug/netstandard2.0/UltimateAxisAndAlliesList.AssemblyInfo.cs
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/obj/Debug/netstandard2.0/UltimateAxisAndAlliesList.csproj.CoreCompileInputs.cache
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/obj/Debug/netstandard2.0/UltimateAxisAndAlliesList.dll
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/obj/Debug/netstandard2.0/ref/UltimateAxisAndAlliesList.dll
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/obj/Debug/netstandard2.0/UltimateAxisAndAlliesList.pdb
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/bin/Debug/netstandard2.0/UltimateAxisAndAlliesList.deps.json
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/bin/Debug/netstandard2.0/UltimateAxisAndAlliesList.dll
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/bin/Debug/netstandard2.0/ref/UltimateAxisAndAlliesList.dll
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/bin/Debug/netstandard2.0/UltimateAxisAndAlliesList.pdb
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/adampoland/Projects/UltimateAxisAndAlliesList/UltimateAxisAndAlliesList/obj/Debug/netstandard2.0/SearchByCountry.xaml.g.cs
